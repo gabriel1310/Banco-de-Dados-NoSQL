@@ -1,0 +1,61 @@
+import variaveis
+import redis
+def observacao():
+    while True:
+        planets = ["Planeta Ragnar", "Planeta Ubbe", "Planeta Vegetta", "Planeta Ragnarok", "Planeta Goku"]
+
+	dados_observatório = {}
+
+	dados_observacao['planeta'] = str(input("Digite o nome do planeta: "))
+	dados_observacao['temperatura'] = int(input("Digite a temperatura em Kelvin: "))
+	dados_observacao['zona habitavel'] = str(input("Está em uma Zona Habitavel? "))
+	dados_observacao['atmosfera'] = str(input("Possui atmosfera? "))
+	dados_observacao['agua'] = str(input("Possui água? "))
+	dados_observacao['rad'] = int(input("Valor da radiação? "))
+
+	print("Aguarde os resultados")
+
+	condições = [ temperatura em Kelvin > 10,
+		            zona habitavel == sim,
+	              possui atmosfera == sim,
+		            possui agua == sim,
+                valor da radiação < 10	
+	            ]
+	
+	if all(condições):
+	     print("O planeta é habitável)
+	
+	else
+	     print("O planeta não é habitável)
+
+
+        redis_host = "localhost"
+        redis_port = 6379
+        redis_password = ""
+
+        def hello_redis():
+            try:
+                r = redis.StrictRedis(host=redis_host, port=redis_port, password=redis_password, decode_responses=True)
+                r.set("dados_observacao", str(planets))
+                msg = r.get("dados_observacao")
+
+                print(msg)
+
+            except Exception as e:
+                print(e)
+
+        if __name__ == '__main__':
+            hello_redis()
+
+    print(dados)
+    print(lista_pedidos)
+
+
+
+
+
+
+
+
+
+
