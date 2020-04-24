@@ -47,8 +47,8 @@ def observacao():
         if __name__ == '__main__':
             hello_redis()
 
-    print(dados)
-    print(lista_pedidos)
+    print(dados correspondentes)
+
 
 
 
