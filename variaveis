@@ -1,0 +1,27 @@
+from consulta import planeta_ragnar
+from consulta import planeta_ubbe
+from consulta import planeta_vegetta
+from consulta import planeta_ragnarok
+from consulta import planeta_goku
+
+def variaveis():
+    #import consulta
+
+    #m1 = consulta.planeta_ragnar
+    print(f"planeta_ragnar")
+
+    #m2 = consulta.planeta_ubbe
+    print(f"planeta_ubbe")
+
+    #m3 = consulta.planeta_vegetta
+    print(f"planeta_vegetta ")
+
+    #m4 = consulta.planeta_ragnarok
+    print(f"planeta_vegetta")
+
+    #m5 = consulta.planeta_goku
+    print(f"planeta_goku")
+
+    
+
+
