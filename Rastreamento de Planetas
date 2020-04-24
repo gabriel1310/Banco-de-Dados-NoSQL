@@ -1,4 +1,5 @@
 import variaveis
+import consulta
 import redis
 def observacao():
     while True:
