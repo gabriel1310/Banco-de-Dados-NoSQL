@@ -16,10 +16,10 @@ def observacao():
 	print("Aguarde os resultados")
 
 	condições = [ temperatura em Kelvin > 10,
-		            zona habitavel == sim,
+		      zona habitavel == sim,
 	              possui atmosfera == sim,
-		            possui agua == sim,
-                valor da radiação < 10	
+		      possui agua == sim,
+                      valor da radiação < 10	
 	            ]
 	
 	if all(condições):
